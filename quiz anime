@@ -3,7 +3,7 @@ import time
 print("Digite a senha para começar")
 while True:
     Senha = input()
-    if Senha == "a senha":
+    if Senha == "Adolf Cézar":
         print("Senha correta")
         break
     else:
@@ -270,3 +270,5 @@ while True:
         print("Quiz Geral")
         time.sleep(1)
         print("Quiz Jogos")
+    else:
+        print("Err0r")
