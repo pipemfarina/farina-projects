@@ -1,3 +1,4 @@
+vida = 5
 import time
 print("Digite a senha para começar")
 while True:
@@ -6,8 +7,14 @@ while True:
         print("Senha correta")
         break
     else:
-        print("Senha incorreta, tente novamente")
-        continue
+        print("Senha incorreta")
+        vida - 1
+        print("Vida atual:", vida)
+        if vida == 0:
+            print("Você perdeu!")
+            exit()
+        else:
+            continue
 print("Pergunta nº1:")
 time.sleep(1)
 print("Qual desses personagens é de um isekai?")
@@ -22,8 +29,14 @@ while True:
         print("Resposta correta")
         break
     else:
-        print("Resposta incorreta, tente novamente")
-        continue
+        print("Resposta incorreta")
+        vida - 1
+        print("Vida atual:", vida)
+        if vida == 0:
+            print("Você perdeu!")
+            exit()
+        else:
+            continue
 print("Pergunta nº2:")
 time.sleep(1)
 print("Qual desses personagens tem ou ja utilizou poder de teletransporte?")
@@ -38,8 +51,14 @@ while True:
         print("Resposta correta")
         break
     else:
-        print("Resposta incorreta, tente novamente")
-        continue
+        print("Resposta incorreta")
+        vida - 1
+        print("Vida atual:", vida)
+        if vida == 0:
+            print("Você perdeu!")
+            exit()
+        else:
+            continue
 print("Pergunta nº3:")
 time.sleep(1)
 print("Qual desses animes tem manifestações da alma utilizadas para combate?")
@@ -54,8 +73,14 @@ while True:
         print("Resposta correta")
         break
     else:
-        print("Resposta incorreta, tente novamente")
-        continue
+        print("Resposta incorreta")
+        vida - 1
+        print("Vida atual:", vida)
+        if vida == 0:
+            print("Você perdeu!")
+            exit()
+        else:
+            continue
 print("Pergunta nº4:")
 time.sleep(1)
 print("Qual desses personagens tem ou ja utilizou o poder de manipular o tempo?")
@@ -70,8 +95,14 @@ while True:
         print("Resposta correta")
         break
     else:
-        print("Resposta incorreta, tente novamente")
-        continue
+        print("Resposta incorreta")
+        vida - 1
+        print("Vida atual:", vida)
+        if vida == 0:
+            print("Você perdeu!")
+            exit()
+        else:
+            continue
 print("Pergunta nº5:")
 time.sleep(1)
 print("Qual desses personagens tem ou ja teve cabelo verde?")
@@ -86,8 +117,14 @@ while True:
         print("Resposta correta")
         break
     else:
-        print("Resposta incorreta, tente novamente")
-        continue
+        print("Resposta incorreta")
+        vida - 1
+        print("Vida atual:", vida)
+        if vida == 0:
+            print("Você perdeu!")
+            exit()
+        else:
+            continue
 print("Pergunta nº6:")
 time.sleep(1)
 print("Qual desses personagens existiu na vida real?")
@@ -102,8 +139,14 @@ while True:
         print("Resposta correta")
         break
     else:
-        print("Resposta incorreta, tente novamente")
-        continue
+        print("Resposta incorreta")
+        vida - 1
+        print("Vida atual:", vida)
+        if vida == 0:
+            print("Você perdeu!")
+            exit()
+        else:
+            continue
 print("Pergunta nº7:")
 time.sleep(1)
 print("Qual desses animes é shounen?")
@@ -118,8 +161,14 @@ while True:
         print("Resposta correta")
         break
     else:
-        print("Resposta incorreta, tente novamente")
-        continue
+        print("Resposta incorreta")
+        vida - 1
+        print("Vida atual:", vida)
+        if vida == 0:
+            print("Você perdeu!")
+            exit()
+        else:
+            continue
 print("Pergunta nº8:")
 time.sleep(1)
 print("Qual desses personagens pode controlar água, pedra, fogo e ar mesmo sem um canalizador mágico?")
@@ -134,8 +183,14 @@ while True:
         print("Resposta correta")
         break
     else:
-        print("Resposta incorreta, tente novamente")
-        continue
+        print("Resposta incorreta")
+        vida - 1
+        print("Vida atual:", vida)
+        if vida == 0:
+            print("Você perdeu!")
+            exit()
+        else:
+            continue
 print("Pergunta nº9:")
 time.sleep(1)
 print("Qual a Uma Musume mais qualificada para corridas longas (De acordo com a minha opnião)?")
@@ -150,8 +205,14 @@ while True:
         print("Resposta correta")
         break
     else:
-        print("Resposta incorreta, tente novamente")
-        continue
+        print("Resposta incorreta")
+        vida - 1
+        print("Vida atual:", vida)
+        if vida == 0:
+            print("Você perdeu!")
+            exit()
+        else:
+            continue
 print("Pergunta nº10 (Ultima):")
 time.sleep(1)
 print("Quantos trevos tem o grimório de Asta?")
@@ -166,5 +227,46 @@ while True:
         print("Resposta correta")
         break
     else:
-        print("Resposta incorreta, tente novamente")
-        continue
+        print("Resposta incorreta")
+        vida - 1
+        print("Vida atual:", vida)
+        if vida == 0:
+            print("Você perdeu!")
+            exit()
+        else:
+            continue
+print("Parabêns você terminou o Quiz Anime!")
+time.sleep(1)
+print("Você ganhou")
+time.sleep(2)
+print("Digite 1 para recomeçar, digite 2 para os créditos e digite 3 para ver os demais quizes")
+while True:
+    opções = input()
+    if opções == "1":
+        exit()
+    elif: opções == "2":
+        print("Criado por:")
+        time.sleep(1)
+        print("Felipe Machado Farina")
+        time.sleep(1)
+        print("Testado por:")
+        time.sleep(1)
+        print("Rafael Da Silveira Zaslavky, Bento Motta Radke e Enzo Borella")
+        time.sleep(1)
+        print("Ajudante:")
+        time.sleep(1)
+        print("Enzo Borella")
+        time.sleep(1)
+        print("Menções honrosas:")
+        time.sleep(1)
+        print("Rafael Bosio (Bosio Ai), Matheus Rubins Rodrigues, Eduardo Silva Pinto")
+    elif: opções == "3":
+        print("Quizes por Felipe Machado Farina:")
+        time.sleep(1)
+        print("Quiz Matérias Escolares")
+        time.sleep(1)
+        print("Quiz RPG")
+        time.sleep(1)
+        print("Quiz Geral")
+        time.sleep(1)
+        print("Quiz Jogos")
