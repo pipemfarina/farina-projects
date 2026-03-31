@@ -117,3 +117,65 @@ while True:
     else:
         print("Código invalido, tente novamente")
         continue
+print("//////////////////////////////////////////////////////////////////////////")
+print("//////////////////////////////////////////////////////////////////////////")
+time.sleep(1)
+print("Pergunta nº5:")
+time.sleep(1)
+print("Qual o igrediente para fazer uma poção de cura?")
+time.sleep(1)
+print("1) Bola de Magma")
+print("2) Fatia de Melancia Dourada")
+print("3) Olho de Aranha Fermentado")
+print("4) Lágrima de Ghast")
+while True:
+    r5 = input()
+    if r5 == "2":
+        print("Resposta Correta")
+        time.sleep(1)
+        break
+    elif r5 == "1" or r5 == "3" or r5 == "4":
+        print("Resposta incorreta")
+        time.sleep(1)
+        print("Tente novamente")
+        continue
+    else:
+        print("Código inválido, tente novamente")
+        continue
+print("//////////////////////////////////////////////////////////////////////////")
+print("//////////////////////////////////////////////////////////////////////////")
+time.sleep(1)
+print("Pergunta nº6:")
+time.sleep(1)
+print("Qual o protagonista do jogo Danganronpa?")
+time.sleep(1)
+print("1) Monokuma")
+print("2) Mondo Owada")
+print("3) Kyoko Kirigiri")
+print("4) Makoto Naegi")
+while True:
+    r6 = input()
+    if r6 == "4":
+        print("Resposta correta")
+        time.sleep(1)
+        break
+    elif r6 == "1" or r6 == "2" or r6 == "3":
+        print("Resposta incorreta")
+        time.sleep(1)
+        print("Tente novamente")
+        continue
+    else:
+        print("Código inválido")
+        continue
+print("//////////////////////////////////////////////////////////////////////////")
+print("//////////////////////////////////////////////////////////////////////////")
+time.sleep(1)
+print("Pergunta nº7:")
+time.sleep(1)
+print("Qual desses jogos você tem que subir até o final dentro de um pote usando uma marreta?")
+time.sleep(1)
+print("1) Getting Over It")
+print("2) Level Devil")
+print("3) Pressure")
+print("4) Fire Boy & Water Girl")
+while True:
