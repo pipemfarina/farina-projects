@@ -92,3 +92,28 @@ while True:
     else:
         print("Código inválido, tente novamente")
         continue
+print("////////////////////////////////////////////////////////////////////////////")
+print("////////////////////////////////////////////////////////////////////////////")
+time.sleep(1)
+print("Pergunta nº4:")
+time.sleep(1)
+print("qual o record mundial da speedrun de Hollow Night na categoria Any%?")
+time.sleep(1)
+print("1) 27 minutos e 43 segundos")
+print("2) 1 minuto e 14 segundos")
+print("3) 1 hora 2 minutos e 29 segundos")
+print("4) 33 minutos e 7 segundos")
+while True:
+    r4 = input()
+    if r4 == "4":
+        print("Resposta correta")
+        time.sleep(1)
+        break
+    elif r4 == "1" or r4 == "2" or r4 == "3":
+        print("Resposta incorreta")
+        time.sleep(1)
+        print("Tente novamente")
+        continue
+    else:
+        print("Código invalido, tente novamente")
+        continue
