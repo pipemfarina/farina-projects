@@ -1,0 +1,94 @@
+import time
+print("1-COMEÇAR")
+print("2-CRÉDITOS")
+print("3-SAIR")
+while True:
+    opt = input()
+    if opt == "1":
+        break
+    elif opt == "2":
+        print("Criador: Felipe Machado Farina")
+    elif opt == "3":
+        exit()
+    else:
+        print("Código Inválido, tente novamente")
+        continue
+print("////////////////////////////////////////////////////////////////////////////")
+print("////////////////////////////////////////////////////////////////////////////")
+print("Pergunta nº1:")
+time.sleep(1)
+print("Qual jogo tem uma habilidade que ricocheteia tiros atravéz de uma moeda?")
+time.sleep(1)
+print("1) I Expect You To Die")
+print("2) ULTRAKILL")
+print("3) Counter Strike 2")
+print("4) Valorant")
+while True:
+    r1 = input()
+    if r1 == "2":
+        print("Resposta correta")
+        time.sleep(1)
+        break
+    elif r1 == "1":
+        print("Isso nem é jogo de tiro")
+        time.sleep(1)
+        print("Tente novamente")
+        continue
+    elif r1 == "3" or r1 == "4":
+        print("Resposta incorreta")
+        time.sleep(1)
+        print("Tente novamente")
+        continue
+    else:
+        print("Código inválido, tente novamente")
+        continue
+print("////////////////////////////////////////////////////////////////////////////")
+print("////////////////////////////////////////////////////////////////////////////")
+time.sleep(1)
+print("Pergunta nº2:")
+time.sleep(1)
+print("Qual desses jogos é 3D?")
+time.sleep(1)
+print("1) Hollow Night")
+print("2) Street Fighter")
+print("3) Umamusume: Pretty Derby")
+print("4) Megamen")
+while True:
+    r2 = input()
+    if r2 == "3":
+        print("Resposta correta")
+        time.sleep(1)
+        break
+    elif r2 == "1" or r2 == "2" or 2r == "4":
+        print("Resposta incorreta")
+        time.sleep(1)
+        print("Tente novamente")
+        continue
+    else:
+        print("Código inválido, tente novamente")
+        continue
+print("////////////////////////////////////////////////////////////////////////////")
+print("////////////////////////////////////////////////////////////////////////////")
+time.sleep(1)
+print("Pergunta nº3:")
+time.sleep(1)
+print("De que jogo é este personagem?: Arthur Morgan (RDR = Red Dead Redemption)")
+time.sleep(1)
+print("1) Red Dead Redemption 2")
+print("2) Red Dead Redemption 1")
+print("3) RDR DLC: Undead Nightmare")
+print("4) RDR DLC: Legends and Killers Pack")
+while True:
+    r3 = input()
+    if r3 == "1":
+        print("Resposta correta")
+        time.sleep(1)
+        break
+    elif r3 == "2" or r3 == "3" or r3 == "4":
+        print("Resposta incorreta")
+        time.sleep(1)
+        print("Tente novamente")
+        continue
+    else:
+        print("Código inválido, tente novamente")
+        continue
