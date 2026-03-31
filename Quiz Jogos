@@ -51,7 +51,7 @@ print("Qual desses jogos é 3D?")
 time.sleep(1)
 print("1) Hollow Night")
 print("2) Street Fighter")
-print("3) Umamusume: Pretty Derby")
+print("3) Umamusume: Pretty Derby Party Dash")
 print("4) Megamen")
 while True:
     r2 = input()
