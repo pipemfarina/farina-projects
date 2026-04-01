@@ -179,3 +179,65 @@ print("2) Level Devil")
 print("3) Pressure")
 print("4) Fire Boy & Water Girl")
 while True:
+    r7 = input()
+    if r7 == "1":
+        print("Resposta correta")
+        break
+    elif r7 == "2" or r7 == "3" or r7 == "4":
+        print("Resposta incorreta")
+        time.sleep(1)
+        print("Tente novamente")
+        continue
+    else:
+        print("Código inválido, tente novamente")
+        continue
+print("//////////////////////////////////////////////////////////////////////////")
+print("//////////////////////////////////////////////////////////////////////////")
+time.sleep(1)
+print("Pergunta nº8:")
+time.sleep(1)
+print("Qual desses jogos é do Roblox?")
+time.sleep(1)
+print("1) Amanda Adventure")
+print("2) Kinder Garten")
+print("3) Front Line")
+print("4) Project Playtime")
+while True:
+    r8 = input()
+    if r8 == "3":
+        print("Resposta correta")
+        time.sleep(1)
+        break
+    elif r8 == "1" or r8 == "2" or r8 == "4":
+        print("Resposta incorreta")
+        time.sleep(1)
+        print("Tente novamente")
+        continue
+    else:
+        print("Código inválido, tente novamente")
+        continue
+print("//////////////////////////////////////////////////////////////////////////")
+print("//////////////////////////////////////////////////////////////////////////")
+time.sleep(1)
+print("Pergunta nº9:")
+time.sleep(1)
+print("Qual o nome do bloco que *dropa* todos os items sem ativalos?")
+time.sleep(1)
+print("1) Pistão")
+print("2) Ejetor")
+print("3) Pistão Grudento")
+print("4) Liberador")
+while True:
+    r9 = input()
+    if r9 == "4":
+        print("Resposta correta")
+        time.sleep(1)
+        break
+    elif r9 == "1" or r9 == "2" or r9 == "3":
+        print("Resposta incorreta")
+        time.sleep(1)
+        print("Tente novamente")
+        continue
+    else:
+        print("Código inválido, tente novamente")
+        continue
